@@ -1,0 +1,24 @@
+-----JAVASCRIPT---------
+-It is basically an object-based scripting language which is light weight and cross-platform.
+- It is a scripting language that follows the programming approach of C type languages.
+- That approach is basically structured programming.
+- It is a weakly typed language that means we need not to specify the variable type.
+- Javascript is basically used for providing the extra functionality to the web page.
+- We can use the java script for user validation, drop down menus and also give other dynamic functionality.
+- Java script also use the concept of object oriented but use prototypes rather than the classes.
+- It is a case sensitive language.
+- It provides good control to users over the web browsers.
+--------External Javascript File---------
+- The external file provides the code  reusability because single javascript file can be used in the many html pages.
+- We can create external javascript file using .js extension.
+- Allows better code redability.
+- The length of code is reduced hence allow time efficiency.
+- It allows browser to cache the file hence the loading time is reduced.
+- Helps the developer and designers to work on both html and javascript at the same time.
+--------Some disadvantages------
+- If some changes are done in the javascript file it will affect the dependent files.
+- The stealer may download the js file and the steal the coders code.
+- Browser need to make extra request to fetch the js file.
+- If it is a few lines of code then better to implement the internal javascript code.
+- If two files are inter dependent then the failure in one will affect the other file also.
+ 
