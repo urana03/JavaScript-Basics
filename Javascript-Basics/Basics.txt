@@ -1,0 +1,100 @@
+--------JavaScipt Basics--------
+
+----Comments-----
+- It is great way to deliver the end information to the user about the code we have written.
+- Comments are ignored by the javascript engine.
+- There are mainly to advantages of the comments:
+1) To make code easy to understand.
+2) To avoid unnecessary code.
+- Single line comments use this (//) and multiline comments use this(/*....*/)
+
+------Variables-----
+
+-Local variables and Global variables.
+-Name must start with (a-z)/(A-Z) or _/$ sign can be used.
+- Name cannot contain numeric as a first letter in the code else it can follow.
+- Variables in javascript are case sensitive means x is differnt than X.
+- Local Variables: Those that are defined inside a function or block.
+- Global Variables: Those that are defined outside of the block or a function.
+- To define the global variables inside a function we need to use the window object foe example :- windows.value=12; .
+- When we declare a variable outside a function it is added to windows object internally and we can access it using the window object also.
+
+----------Data Types-----------
+
+- Primitive Data types:
+   String ="abc";
+   Number = 100;
+   Boolean= true or false;
+   undefined = value not defined;
+   null = value set to null or no value;
+- Non-primitive(refrence) data types:
+  objects = it is an instance through which we can access members
+  array = group of similar values or data
+  RegExp = represents regular expression
+
+-----------Operators--------------
+
+- Arithmetic operator = +,-,/,%,*,++,--
+- Comparson Operators => ==,===,!=,!==,>,>=,<,<=
+- Bitwise Operators = |,&,^,~,<<,>>,>>>
+- Logical Operators = &&,||,!
+- Assignment Operators => =, +=, -=, *=, /=, %=
+- Special Operators :
+?: - conditional operator return the value based on the condition.
+, - allows multiple expression to be evaluated in single time.
+delete - the property from the object.
+in - checks if object hae given property.
+instanceof - check the object is an instance of given type.
+new - create a instance.
+typeof - check type of object.
+void - it discards the expresssion's return value.
+yield - checks what is returend in a generator by it's iterator.
+
+-------------If-Else Statement------------
+- To check the condition is true or false and then execute some code.
+- Types:
+  if statement
+  if else statement
+  if else if statement
+
+------------Switch Case---------------
+- switch(expression){
+   case value1:
+   code block to be executed.
+   break;
+   case value 2:
+   code block to be executed.
+   break;
+   .
+   .
+   .
+   .
+   and so on. 
+}
+
+-----------------Loops-------------------
+
+1)For loop :- for(initialization;condition;increment)
+               {
+                    code to be executed;
+                          }
+2) while loop:- while(condition){
+
+                                   block of code;
+                                        }
+3) do-while loop:- do{
+                       code to execute;
+                            }
+                    while(condition);
+
+4) for-in loop:- Will discuss later.
+
+--------------Functions-------------------
+
+- Provides code reuseability.
+-Less coding i.e, make our program compact.
+
+function functionName([argument1,arg2,arg3.....arg-n]){
+    code to be executed;
+}
+
