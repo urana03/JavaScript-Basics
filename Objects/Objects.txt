@@ -1,0 +1,65 @@
+------Objects---------
+Creation of objects:-
+- By using object literals:
+ 
+object={
+   property1:value,
+   property2:value,
+   property3:vaue,
+   property4:value,
+}
+
+- By creating instance of object directly(using new keyword):
+
+var objectname = new Object();
+
+- By using an object constructor(using new Keyword)
+
+Here we can use the function to create the object constructor by using the this keyword to point to the property of current object.
+
+- We can define a function in the object constructor but first we need to set the unction property and value with the same name.
+
+-------------Array-----------
+1)By array literals :
+var arrayname = [value1,value2,value3.....valueN]
+
+2)By creating instance of array directly:
+
+var arrayname = new Array();
+arrayname[0] = 'Varun';
+arrayname[1] = 'Bhuwan';
+and so on.......
+
+3)By specifying directly in he array constructor:
+
+var arrayname = new Array('Varun','Bhuwan','Sonu');
+
+------------Strings----------
+
+1)String literals:
+var stringName = "Guddu";
+
+2)String Construtor:
+
+var stringName = new String("Mishra");
+
+---------Date--------------
+
+1)Date()
+2)Date(milliseconds)
+3)Date(dateString)
+4)Date(year,month,day,hours,minutes,sceonds,milliseconds)
+
+--------Number Object-------
+
+- It helps to represent the numeric value such as floating point or integer.
+- var n = new Number(value);
+
+---------Boolean Object----------
+
+-It returns the value in only two forms either true or false.
+- var b = new Boolean(value);
+
+toSource() => returns the source of Boolean object as a string.
+toString() => converts Boolean into String.
+valueOf() => converts other type into Boolean.
