@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByTagName</title>
+</head>
+<body>
+    <script>
+        function count(){
+            var tags = document.getElementsByTagName("p");
+            alert("Total p length :"+tags.length);
+        }
+    </script>
+    <p>Whatis your name?</p>
+    <p>How are you?</p>
+    <p>My name is Uttam.</p>
+    <p>I am fine.</p>
+    <button onclick="count()">click here</button>
+</body>
+</html>
