@@ -1,0 +1,33 @@
+---------BOM---------
+- It stands for browser object model and used to apply the various object of window and also window objec itself.
+
+-window.alert("What is your name"); is same as
+- alert("What is your name");
+
+---------Window Object-------
+-It represents a window in the browser.
+- It is an object of the browser not the java script.
+- Methods of windoww object:
+
+alert() => display the box containing ok button.
+
+confirm() => displays the confirm dialog box with ok and cancel button.
+
+prompt() => display the dialog box to get input from the user.
+
+open() => opens the new window.
+
+close() => closes the current window.
+
+set Timeout() => performs action after a specified time like calling function,evaluating expressions etc.
+
+---------History Object--------
+- It represents array of url visited by the user.Using this we can previous, forward or any particular page.
+- window.history
+-Propert : return the length of history of urls.
+
+---------Navigator Object--------
+- It is basically used for browser detection and things like appName ,appCode and userAgent etc.
+- window.navigator
+javaEnabled() => checks if java is enabled
+taintEnabled() =>
