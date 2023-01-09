@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Password</title>
+</head>
+<body>
+    <script>
+        function check(){
+            var password = document.myform.password.value;
+            var confirm = document.myform.confirm.value;
+          if(password != confirm){
+            alert("Password did not match.")
+            return false;
+          }
+        }
+    </script>
+    <form name="myform" method="post" onsubmit="return check()">
+        Enter Password: <input type="password" name="password"/> <br/>
+        Confirm Password: <input type="password" name="confirm"/> <br/>
+        <input type="submit" value="Confirm">
+    </form>
+</body>
+</html>
