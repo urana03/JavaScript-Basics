@@ -1,0 +1,12 @@
+-----Javascript Form Validation------
+
+- It is important to validate the  form submitted by the user to check if it is appropriate or not.
+- With the javascript validation on the client side we can make our form validation more efficient it it will take less time than that of the server-side validation.
+
+------Javascript Email Validation--------
+
+There are many criteria that need to followed while email validation
+
+-email id must contain the @ and . character
+-There must be at least one character before and after @
+- There must be at least two characters after the . 
