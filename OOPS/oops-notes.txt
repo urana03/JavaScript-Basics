@@ -1,0 +1,58 @@
+------Javascript Classes------
+-Javascript class contains various class members within a body including methods and constructors.
+
+-Class Declarations: A class can be defined by using a class declaration.A class keyword is used to declare a class with any particular name.The name of the class should always start with an uppercase letter.
+
+-Class expressions: Another way to define a class is by using a class expression.Here it is not mandatory to assign the name of the class. So the class exapmle can be named or unnamed.
+
+Unlike the class declaration we can have one or more expression of the same name for the different classes.
+
+---------Javascript Prortype---------
+
+Javascript is prototype based language that facilitates the objects to acquire properties and features from one another. Here each object contains a prototype object.
+-In javascript whenever the function is created it's prototype property is added the function automatically.This property is a prototype object that holds the constructor property.
+
+-Classname.prototype.methodname
+
+--------Constructor Method-----------
+A javascript constructor method is a special type of method which is used to initialize and create an object.
+
+    The constructor keyword is used to declare a constructor method.
+    The class can contain one constructor method only.
+    JavaScript allows us to use parent class constructor through super keyword.
+
+----------JS Static Method------------
+- It is method that belongs the class instead of the instance of the class.
+
+   - The static keyword is used to declare a static method.
+   - The static method can be of any name.
+   - A class can contain more than one static method.
+   - If we declare more than one static method with a similar name, the JavaScript      always invokes the last one.
+   - The static method can be used to create utility functions.
+   - We can use this keyword to call a static method within another static method.
+   - We cannot use this keyword directly to call a static method within the non-static      method. In such case, we can call the static method either using the class name or      as the property of the constructor.
+
+-----------Encapsulation-------------
+- It is theprocess of binding the data(i.e variables) with the functions acting on that data. It allows us to control the data and validate it.
+
+
+   - Use var keyword to make data members private.
+   - Use setter methods to set the data and getter methods to get that data.
+
+Read/Write - Here, we use setter methods to write the data and getter methods read that data.
+
+Read Only - In this case, we use getter methods only.
+
+Write Only - In this case, we use setter methods only.
+
+-------------Inheritance-------------
+-It helps us to create new classes on the basis of the existing classes.
+-It provides flexibilty to the child class to use the methods and variables of the parent class.
+- We use extends keyword for this.
+
+**We can also use prototype approach to achive inheritance.
+
+
+
+
+ 
